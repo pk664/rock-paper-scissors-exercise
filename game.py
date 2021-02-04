@@ -2,8 +2,22 @@
 
 
 import random
+import os
+
+from dotenv import load_dotenv 
+
+#
+#setting up more things 
+#
+
+load_dotenv()
+
+USER_NAME=os.getenv("USER_NAME", default="Player One")
+
+USER_NAME=input("Hello! Please input your name:")
+
 print("-------------------")
-print("Welcome 'Player One' to my Rock-Paper-Scissors game...")
+print("Welcome", USER_NAME, "to my Rock-Paper-Scissors game!")
 print("-------------------")
 
 #
@@ -14,9 +28,6 @@ user_choice = input("Please choose either 'rock', 'paper', or 'scissors':")
 
 
 print("You chose:",user_choice)
-
-
-
 
 options = ['rock','paper','scissors']
 
