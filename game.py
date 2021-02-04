@@ -51,6 +51,8 @@ elif user_choice=="paper" and computer_choice=="rock":
 elif user_choice=="scissors" and computer_choice=="paper":
     print("You win! Congrats!")
 
+else: 
+    print("Oops, something went wrong!")
 
 
 print("-------------------")
