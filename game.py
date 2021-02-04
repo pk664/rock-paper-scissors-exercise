@@ -17,14 +17,26 @@ print("You chose:",user_choice)
 
 
 
+
+options = ['rock','paper','scissors']
+
+#
+# validate the user selection 
+#
+# stop the program (not try to determine the winner)
+#... if the user choice is invalid 
+
+if user_choice in options:
+   # print("Good")
+   pass
+else:
+    print("Oops, please choose a valid option and try again!")
+    exit()
+
+
 #
 #simulating a computer input
 #
-
-
-
-
-options = ['rock','paper','scissors']
 
 computer_choice = random.choice(options)
 
@@ -32,7 +44,8 @@ computer_choice = random.choice(options)
 print("The computer chose",computer_choice)
 
 
-#
+
+
 #determining who won 
 #
 
@@ -58,7 +71,7 @@ else:
 print("-------------------")
 
 
-print("Thanks for playing. Please play again!")
+print("Thanks for playing. Let's play again!")
 
 
 exit ()
