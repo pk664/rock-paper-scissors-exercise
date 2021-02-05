@@ -51,7 +51,7 @@ else:
 computer_choice = random.choice(options)
 
 
-print("The computer chose",computer_choice)
+print("The computer chose:",computer_choice)
 
 #
 #determining who won 
