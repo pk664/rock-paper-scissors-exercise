@@ -5,13 +5,13 @@ import random
 
 from dotenv import load_dotenv
 
-#setting environment vars: 
+# setting environment vars: 
 
 load_dotenv()
 
 #
-#setting up more things 
-#player customization 
+# setting up more things 
+# player customization 
 #
 
 USER_NAME = os.getenv("USER_NAME", default="Player One")
@@ -22,7 +22,7 @@ print(f"PLAYER: '{USER_NAME}'")
 print("-------------------")
 
 #
-#asking user for input
+# asking user for input
 #
 
 user_choice = input("Please choose either 'rock', 'paper', or 'scissors':")
@@ -34,9 +34,8 @@ options = ['rock','paper','scissors']
 
 #
 # validate the user selection 
-#
 # stop the program (not try to determine the winner)
-#... if the user choice is invalid 
+# if the user choice is invalid 
 #
 
 if user_choice in options:
