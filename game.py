@@ -6,7 +6,7 @@ import random
 
 #
 #setting up more things 
-#
+#player customization 
 
 
 PLAYER_NAME=input("Hello! Please input your name:")
@@ -49,7 +49,7 @@ computer_choice = random.choice(options)
 
 print("The computer chose",computer_choice)
 
-
+#
 #determining who won 
 #
 
