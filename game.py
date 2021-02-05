@@ -8,9 +8,11 @@ from dotenv import load_dotenv
 #setting environment vars: 
 
 load_dotenv()
+
 #
 #setting up more things 
 #player customization 
+#
 
 USER_NAME = os.getenv("USER_NAME", default="Player One")
 
@@ -35,6 +37,7 @@ options = ['rock','paper','scissors']
 #
 # stop the program (not try to determine the winner)
 #... if the user choice is invalid 
+#
 
 if user_choice in options:
    # print("Good")
