@@ -1,18 +1,22 @@
 # game.py
 
-
+import os
 import random
 
+from dotenv import load_dotenv
 
+#setting environment vars: 
+
+load_dotenv()
 #
 #setting up more things 
 #player customization 
 
-
-PLAYER_NAME=input("Hello! Please input your name:")
+USER_NAME = os.getenv("USER_NAME", default="Player One")
 
 print("-------------------")
-print("Welcome", PLAYER_NAME, "to my Rock-Paper-Scissors game!")
+print("Welcome to my Rock-Paper-Scissors game!")
+print(f"PLAYER: '{USER_NAME}'")
 print("-------------------")
 
 #
