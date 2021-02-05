@@ -2,22 +2,17 @@
 
 
 import random
-import os
 
-from dotenv import load_dotenv 
 
 #
 #setting up more things 
 #
 
-load_dotenv()
 
-USER_NAME=os.getenv("USER_NAME", default="Player One")
-
-USER_NAME=input("Hello! Please input your name:")
+PLAYER_NAME=input("Hello! Please input your name:")
 
 print("-------------------")
-print("Welcome", USER_NAME, "to my Rock-Paper-Scissors game!")
+print("Welcome", PLAYER_NAME, "to my Rock-Paper-Scissors game!")
 print("-------------------")
 
 #
@@ -53,8 +48,6 @@ computer_choice = random.choice(options)
 
 
 print("The computer chose",computer_choice)
-
-
 
 
 #determining who won 
