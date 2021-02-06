@@ -53,4 +53,11 @@ python game.py
 it's because the given package isn't installed, so run the `pip` command above to ensure that 
 package has been installed into the virtual environment. 
 
-That's all! Have fun playing the game. 
+The following rules apply to the game: 
+
+1. Rock beats Scissors
+2. Paper beats Rock
+3. Scissors beats Paper
+4. Rock vs Rock, Paper vs Paper, and Scissors vs Scissors each results in a "tie"
+
+Good luck and have fun playing the game! 
